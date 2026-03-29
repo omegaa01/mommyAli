@@ -13,4 +13,4 @@ textElements.forEach((element) => {
 const randomDelay = Math.random() * 2; 
 element.style.animationDelay = ${randomDelay}s;
 });
-});
+
