@@ -8,8 +8,8 @@ for (let index = 0; index < text.length; index++) {
   }
 }
 
-const textElements = document.querySelectorAll('.title span');
-textElements.forEach((element, index) => {
-  element.style.animationDelay = `${index * 0.1}s`;
+const textElements = document.querySelectorAll('.title span'); 
+textElements.forEach((element) => { const randomDelay = Math.random() * 3; 
+                                   element.style.animationDelay = ${randomDelay}s;
 });
 });
