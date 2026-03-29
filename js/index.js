@@ -10,6 +10,6 @@ for (let index = 0; index < text.length; index++) {
 
 const textElements = document.querySelectorAll('.title span');
 textElements.forEach((element, index) => {
-  element.style.animationDelay = `${index * 0.3}s`;
+  element.style.animationDelay = `${index * 0.1}s`;
 });
 });
